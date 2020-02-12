@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Conditional Endorsement</title>
+</head>
+
+<body>
+    <div id="main-div">
+        <div id="div-left" class="div-margin">
+            <p id="p-Dis">....</p>
+        </div>
+        <div id="div-paper">
+
+            <h1 id="h-title">Endorsement Theory</h1>
+
+            <h6 id="h-title-info"><small>Ali Zolfagharian - 'What If' Research Group - Konstanz University -
+                    2019</small> </h6>
+
+
+            <p class="p-main">
+                Endorsement theory, ET, is a formal epistemological theory which represents an epistemic state of an
+                agent by an acceptance base function (ABF),
+                an endorsement critical point (ECP), and an endorsement function (EF). ABF, ECP, and EF respectively
+                depend on agent’s evidence, context and reasons.
+            </p>
+            <p class="p-main">
+                The static ET ends by representing qualitative and quantitative doxastic attitudes, namely; belief,
+                disbelief, suspense and ignorance.
+                For the dynamic part, I explain how an agent can update her acceptance base function, endorsement
+                threshold and her way of constructing the endorsement function.
+            </p>
+            <p class="p-main">
+                The last part is about conditionals and reason. Conditional degree of endorsement of proposition,
+                depends on the given condition, a condition could be change in the acceptance base.
+                Reason on the other side is about comparing how a condition can change the degree of endorsement of the
+                proposition and its complement.
+            </p>
+            <div id="table-of-content" class='div-section'>
+                <ul>
+                    <li><a href="#Preliminary-definitions-and-notation" id="">Preliminary definitions and notation</a>
+                        <ul>
+                            <li><a href="#Set-of-possibilities-and-propositions" id="">Set of possibilities and
+                                    propositions</a></li>
+                            <li><a href="#Frames-and-ground" id="">Frames and ground</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#Acceptance-Base-Fucntion" id="">Acceptance Base Fucntion</a>
+                        <ul>
+                            <li><a href="#Evidence" id="">Evidence</a></li>
+                            <li><a href="#Evidence-Base-Function" id="">Evidence Base Function</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#Endorsement-Fucntion" id="">Endorsement Fucntion</a>
+                        <ul>
+                            <li><a href="#Endorsement-Threshold" id="">Endorsement Threshold</a></li>
+                            <li><a href="#Endorsement-Base" id="">Endorsement Base</a></li>
+                            <li><a href="#Inferable-Bases-and-cores" id="">Inferable Bases and cores</a></li>
+                            <li><a href="#Conditionally-Endorsed-propositions" id="">Conditionally Endorsed
+                                    propositions</a></li>
+                            <li><a href="#Conditionally Evaluable propositions" id="">Conditionally Evaluable
+                                    propositions</a></li>
+                            <li><a href="#Evaluable-propositions" id="">Evaluable propositions</a></li>
+                            <li><a href="#Endorsed-propositions" id="">Endorsed propositions</a></li>
+                            <li><a href="#Endorsement-function" id="">Endorsement function</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#Doxastic-attitudes" id="">Doxastic attitudes</a>
+                        <ul>
+                            <li><a href="#Belief" id="">Belief (l/n)</a></li>
+                            <li><a href="#Disbelief" id="">Disbelief (l/n)</a></li>
+                            <li><a href="#Suspension" id="">Suspension (l/n)</a></li>
+                            <li><a href="#Ignorance" id="">Ignorance (l/n)</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#Update" id="">Update</a>
+                        <ul>
+                            <li><a href="#Acceptance-Base-Function-Update" id="">Acceptance Base Function Update</a>
+                            </li>
+                            <li><a href="#Endorsement-Critical-Point-Update" id="">Endorsement Critical Point Update</a>
+                            </li>
+                            <li><a href="#The-Construction-of-the-Endorsement-function" id="">The Construction of the
+                                    Endorsement function</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#Conditionals" id="">Conditionals</a>
+                        <ul>
+                            <li><a href="#By-endorsing-not-endorsing" id="">By endorsing/not endorsing</a></li>
+                            <li><a href="#By-Believing" id="">By Believing</a></li>
+                            <li><a href="#By-Disbelieving" id="">By Disbelieving</a></li>
+                            <li><a href="#By-Assuming-Unknown" id="">By Assuming Unknown</a></li>
+                            <li><a href="#By-Suspending" id="">By Suspending</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#Reasons" id="">Reasons</a>
+                        <ul>
+                            <li><a href="#For-The-Agent" id="">For The Agaent</a></li>
+                            <li><a href="#For-Another-Agent" id="">For Another Agent</a></li>
+                            <li><a href="#For-A-Group-Of-Agents" id="">For A Group Of Agents</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div id="main-texts">
+                <div id='Section-Preliminary-definitions-and-notation' class='div-section'>
+                    <a id="Preliminary-definitions-and-notation">Preliminary definitions and notation</a>
+                    <section id='section-Set-of-possibilities-and-propositions'>
+                        <a id="Set-of-possibilities-and-propositions">
+                            Set of possibilities and propositions
+                        </a>
+                        <p id="p-main">Let <i><b>W</b></i> be the set of all possibilities and <i><b>n</b></i> be the
+                            number
+                            of all possibilities.
+                            Then <i><b>P<sub>i</sub> ⊆ W</b></i> is a proposition, a set of possibilities;
+                            such that the subscript <b><i>i</b></i> is a decimal number which its binary form indicates
+                            which
+                            possibilities are in <b><i>P<sub>i</sub></b></i>. The notation, using subscript
+                            <b><i>i</b></i>,
+                            improves the readability of the text and
+                            it is easy to use this notation for a programming language like bitwise operator.
+                            Also, it reflects the definition of a proposition, a function from the set of possibilities
+                            to
+                            <b><i>{0,1}</b></i>.
+                        </p>
+                        <div class="div-Formula">
+                            <ul class='ul-formula'>
+                                <li type="none">
+                                    (1)   <b><i> W = { w <sub>1</sub> , w<sub>2</sub> ,…, w<sub>n</sub> } </i></b>
+                                </li>
+                            </ul>
+                            <ul class='ul-formula'>
+                                <li type="none">
+                                    (2)   <b><i> P<sub>i</sub> ⊆ W </i></b>
+                                </li>
+                            </ul>
+                        </div>
+                        <p id="p-main">
+                            Let me explain with an example:
+                            Assume <b><i>W={ w<sub>1</sub> , w<sub>2</sub> , w<sub>3</sub> , w<sub>4</sub> }</b></i>, then the
+                            proposition <b><i>W</b></i> is <b><i>P<sub>15</sub></i></b> which is
+                            <b><i>P<sub>(1111)</sub></i></b>,
+                            the number <b><i>1111</i></b>
+                            tells that all possibilities <b><i>w<sub>1,</sub>, w<sub>2,</sub>, w<sub>3,</sub>,
+                                    w<sub>4</sub></i></b> belongs to <b><i>P<sub>15</sub></i></b>. Similarly,
+                            <b><i>P<sub>5</sub> ≡ P<sub>(0101)</sub></i></b>
+                            which tells that <b><i>P<sub>5</sub></i></b> contains <b><i>w<sub>1,</sub>,
+                                    w<sub>3</sub></i></b>. And <b><i>P<sub>0</sub></i></b> means the empty set.
+                        </p>
+                    </section>
+                    <section id="section-Frames-and-ground">
+                        <a id="Frames-and-ground">
+                            Frames and ground
+                        </a>
+                        <p id="p-main">
+                            The set of frames <i><b>F<sub></sub></b></i> is the set of all algebra over <i><b>W<sub></sub></b></i>. 
+                            <i><b>F<sub>i</sub></b></i> is a subset of <i><b>F<sub></sub></b></i>, that all its
+                            member contains <i><b>P<sub>i</sub></b></i>. In other word <i><b>F<sub>i</sub></b></i> is the set of all algebra
+                             over <i><b>W<sub></sub></b></i> which have <i><b>P<sub>i</sub></b></i> as
+                            its member. An algebra could be thought as an inner context or a framework that has enough
+                            position to receive evidences. There might be cases that the inner context needs to be
+                            updated.
+                        </p>
+                        <div class="div-Formula">
+                            <ul class='ul-formula'>
+                                <li type="none">
+                                    (3)<b><i> F = { B<sub>i</sub> | B<sub>i</sub> is an algebra and a subset of 2<sup>W</sup> } </i></b>
+                                </li>
+                            </ul>
+                        </div>
+
+
+                    </section>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+        <div id="div-right" class="div-margin">
+            <p id="p-Dis">....</p>
+        </div>
+    </div>
+
+</body>
+
+
+</html>

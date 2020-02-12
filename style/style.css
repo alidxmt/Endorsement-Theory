@@ -1,0 +1,81 @@
+#main-div {
+align-items: center;}
+
+#div-paper {
+    float: left;
+    /* min-width: 600px; */
+    width: 60%;
+    /* margin-left: 30%;
+    margin-right: 30%; */
+}
+
+
+#div-left {
+    float: left;
+    min-width: 20%;
+}
+#div-right {
+    float: left;
+    min-width: 20%;
+}
+
+#p-Dis {
+    visibility: hidden;
+}
+
+
+#h-title {
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    margin-top: 0;
+    line-height: 1em;
+    font-size: 2.5em;
+    margin: 3.8em 18px 0.5em ;
+}
+
+#h-title-info {
+    margin-left: 28px;
+    font-style: italic;
+    font-size: 1.1em;
+    font-weight: 10;
+}
+
+a {
+    font-family: serif;
+    font-size: 1.1em;
+    /* color: #8c1515; */
+    color: #15528c;
+    text-decoration: inherit;
+    font-style: inherit;
+    font-weight: 400;
+    
+}
+.p-main {
+    text-indent: .1em;
+    margin-top: 1em;
+    margin-left: 18px;
+    font-family: serif;
+}
+
+.ul-formula {
+
+}
+
+
+
+li {
+    margin-top: 10px;
+}
+
+section {
+    margin-top: 10px;
+}
+.div-section {
+    margin-top: 32px;
+    margin-bottom: 42px;
+}
+
+.DOM-space {
+    visibility: hidden;
+}
